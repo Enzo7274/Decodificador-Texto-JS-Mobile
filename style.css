@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@media screen and (max-width: 600px) {
+/* CSS rules for screens smaller than or equal to 600px */
+    body{
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        background-color: var(--color-primary);
+    }
+    #userInput{
+        width:18rem;
+        font-size: 1.5rem;
+        color: var(--color-secondary);
+        margin: 2rem;
+        resize: none;
+    }
+
+    #inputWarningImg{
+        margin-left: 10%;
+    }
+    #inputWarning{
+        color:var(--color-quartiary);
+        font-size:0.75rem;
+    }
+
+    button{
+        width:fit-content;
+        height:fit-content;
+        border-radius:24px;
+        padding:1rem;
+        gap:5rem;
+        font-size:1rem; /* originaly was 1 rem||16px */
+    }
+
+    #crptButton{
+        background-color:var(--color-secondary);
+        color:var(--color-tertiary);
+        margin-left: 2rem;
+    }
+    #crptButton:active{
+        background-color:var(--color-hover);
+        color:var(--color-hover-text);
+    }
+
+    #dscrptButton{
+        background-color:var(--color-tertiary);
+        color:var(--color-secondary);
+        margin-left:1rem;
+    }
+    #dscrptButton:active{
+        background-color: var(--color-hover);
+        color:var(--color-hover-text);
+    }
+    #copyButton{
+        width:100%;
+        background-color:var(--color-tertiary);
+        color:var(--color-secondary);
+        margin-bottom:1rem;
+    }
+    #copyButton:active{
+        background-color: var(--color-hover);
+        color:var(--color-hover-text);
+    }
+    #noTextImg{
+        margin-left:3rem;
+        margin-top:1rem;
+        width:75%;
+    }
+    #resultSpan{
+        margin-bottom:1rem;
+    }
+    #resultAside{
+        background-color:var(--color-aside);
+        border-radius: 32px;
+        width:calc(100% - 2rem);
+        box-sizing:border-box;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin: 1rem 1rem;
+        color:var(--color-span);
+        text-align:center;
+    }
+    strong.resultAside{
+        color:var(--color-strong);
+        font-size:1.5rem;
+    }
+    span.resultAside{
+        font-size:1rem;
+    }
+
+    #outputDiv{
+        margin-top:8%;
+        height:100%;
+        width:calc(100% - 50px);
+        display:flex;
+        flex-direction:column;
+    }
+    #outputText{
+        color:var(--color-span);
+        height: fit-content;
+        font-size: 1.5rem;
+        text-align:start;
+        white-space: pre-wrap;
+        overflow-wrap:break-word;
+        margin-bottom:1rem;
+    }
+    :root {
+        --color-primary:#F3F5FC;
+        --color-secondary:#0A3871;
+        --color-tertiary:#D8DFE8;
+        --color-aside:#FFFFFF;
+        --color-strong:#343A40;
+        --color-hover:#4f5861;
+        --color-span:#495057;
+        --color-hover-text:#9eacbb;
+    }
+    *{
+        padding:0;
+        margin:0;
+        font-family: 'Inter', sans-serif;
+}
+}
+@media screen and (min-width: 601px) {
+/* CSS rules for screens smaller than or equal to 600px */
+
+    body{
+        justify-content:space-between;
+        display:flex;
+        height:100vh;
+        box-sizing:border-box;
+        background-color: var(--color-primary);
+    }
+    main{
+        
+        height:100%;
+        width:75%;
+    }
+
+    #userInput{
+        width:50%;
+        font-size: 2rem;
+        color: var(--color-secondary);
+        margin: 10% 25%;
+        max-width: 100%;
+        resize: none;
+    }
+    #inputWarningImg{
+        margin-left: 25%;
+    }
+    #inputWarning{
+        color:var(--color-quartiary);
+        font-size:0.75rem;
+    }
+
+    button{
+        width:25%;
+        height:7%;
+        border-radius:24px;
+        padding:24px;
+        gap:8%;
+        font-size:100%; /* originaly was 1 rem||16px */
+    }
+
+    #crptButton{
+        background-color:var(--color-secondary);
+        color:var(--color-tertiary);
+        margin-left: 25%;
+    }
+    #crptButton:hover{
+        background-color:var(--color-hover);
+        color:var(--color-hover-text);
+    }
+
+    #dscrptButton{
+        background-color:var(--color-tertiary);
+        color:var(--color-secondary);
+        margin-left:5%;
+    }
+    #dscrptButton:hover{
+        background-color: var(--color-hover);
+        color:var(--color-hover-text);
+    }
+
+    #copyButton{
+        width:100%;
+        background-color:var(--color-tertiary);
+        color:var(--color-secondary);
+    }
+    #copyButton:hover{
+        background-color: var(--color-hover);
+        color:var(--color-hover-text);
+    }
+    #copyButton:active{
+        background-color:var(--color-tertiary);
+        color:var(--color-secondary);
+    }
+    #copyWarnSpan{
+        
+    }
+
+    #resultAside{
+        background-color:var(--color-aside);
+        border-radius: 32px;
+        width:25%;
+        box-sizing:border-box;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin: 2% 2% 2% 0%;
+        color:var(--color-span);
+        text-align:center;
+    }
+    #noTextImg{
+        margin-top:50%;
+        width:75%;
+    }
+    strong.resultAside{
+        color:var(--color-strong);
+        font-size:1.5rem;
+    }
+    span.resultAside{
+        font-size:1rem;
+    }
+
+    #outputDiv{
+        margin-top:8%;
+        height:100%;
+        width:calc(100% - 50px);
+        display:flex;
+        flex-direction:column;
+    }
+    #outputText{
+        color:var(--color-span);
+        height: 88%;
+        font-size: 1.5rem;
+        text-align:start;
+        white-space: pre-wrap;
+        overflow-wrap:break-word;
+    }
+    :root {
+        --color-primary:#F3F5FC;
+        --color-secondary:#0A3871;
+        --color-tertiary:#D8DFE8;
+        --color-aside:#FFFFFF;
+        --color-strong:#343A40;
+        --color-hover:#4f5861;
+        --color-span:#495057;
+        --color-hover-text:#9eacbb;
+    }
+    *{
+        padding:0;
+        margin:0;
+        font-family: 'Inter', sans-serif;
+}
+}
