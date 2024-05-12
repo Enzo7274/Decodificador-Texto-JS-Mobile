@@ -16,11 +16,6 @@ Por exemplo:
 gaitober" => "gato"
 */
 
-/*
-    TODO:
-    Reajustar botão de copiar
-*/
-
 var userInputVar;
 
 //Atribuindo os elementos HTML do site para as variáveis

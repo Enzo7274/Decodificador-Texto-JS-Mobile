@@ -99,7 +99,7 @@
     #outputText{
         color:var(--color-span);
         height: fit-content;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align:start;
         white-space: pre-wrap;
         overflow-wrap:break-word;
